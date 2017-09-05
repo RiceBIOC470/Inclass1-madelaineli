@@ -107,10 +107,7 @@ R = fliplr(oneToTen*2)
 oneToTen = oneToTen';
 fliplr(oneToTen)
 %The fliplr function no longer works because it flips a matrix in
-%left/right direction, but the oneToTen matrix is now a column vector
-%instead of a row vector. Thus we have to use flipud instead, which flips a
-%matrix in the up/down direction. 
-flipud(oneToTen)
+%left/right direction
 
 %% matrices, . operator
 
@@ -135,8 +132,8 @@ m2./m1
 
 %extra credit: explain why this command gives a warning:
 m2/m1
-%Both matrices are singular, meaning they don't have inverses. Thus matrix 
-%division cannot be done, and the problem cannot be solved.
+%Both matrices are singular, meaning they don't have inverses. Thus the
+%problem cannot be solved.
 
 %% access particular elements and groups of elements
 
