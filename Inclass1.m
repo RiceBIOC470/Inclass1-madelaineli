@@ -1,3 +1,5 @@
+%AW: Looks good 0.95/1
+
 % InClass1: some simple excerises to get started with MATLAB. Please complete by
 % the second class. Answer questions in comments and return assignment via
 % github
@@ -11,6 +13,7 @@ a = '1';
 b = a+a
 % First section includes the addition of numbers (x and y are both
 % numbers), while in the second section, a is a character, and b %%%
+%AW: looks like you didn't complete this thought...-.05
 
 %% concatenation
 % what is being done by the following statements? what is the difference between x2 and a2? 
